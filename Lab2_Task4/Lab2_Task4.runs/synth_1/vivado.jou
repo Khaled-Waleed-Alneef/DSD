@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 12 14:52:47 2024
+# Process ID: 42728
+# Current directory: /home/it/Vivado_Projects/Lab2_Task4/Lab2_Task4.runs/synth_1
+# Command line: vivado -log full_4_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source full_4_adder.tcl
+# Log file: /home/it/Vivado_Projects/Lab2_Task4/Lab2_Task4.runs/synth_1/full_4_adder.vds
+# Journal file: /home/it/Vivado_Projects/Lab2_Task4/Lab2_Task4.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source full_4_adder.tcl -notrace
