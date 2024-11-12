@@ -1,0 +1,11 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+5000	 0	 0	 0	 0	 0
+10000	 0	 0	 1	 1	 0
+15000	 0	 1	 0	 1	 0
+20000	 0	 1	 1	 0	 1
+25000	 1	 0	 0	 1	 0
+30000	 1	 0	 1	 0	 1
+35000	 1	 1	 0	 0	 1
+40000	 1	 1	 1	 1	 1
+$finish called at time : 45 ns : File "/home/it/Vivado_Projects/Lab1_Task3/Lab1_Task3.srcs/sim_1/new/tb_full_adder.sv" Line 29
