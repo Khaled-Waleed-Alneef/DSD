@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 13 16:39:09 2024
+# Process ID: 40023
+# Current directory: /home/it/Vivado_Projects/Lab3_Task1/Lab3_Task1.runs/synth_1
+# Command line: vivado -log sev_seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sev_seg.tcl
+# Log file: /home/it/Vivado_Projects/Lab3_Task1/Lab3_Task1.runs/synth_1/sev_seg.vds
+# Journal file: /home/it/Vivado_Projects/Lab3_Task1/Lab3_Task1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source sev_seg.tcl -notrace
