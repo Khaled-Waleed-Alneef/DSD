@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/Vivado_Projects/Lab4_Task5/Lab4_Task5.srcs/sources_1/new/counter_ins.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_ins
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/Vivado_Projects/Lab4_Task5/Lab4_Task5.srcs/sim_1/new/mul_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_tb
