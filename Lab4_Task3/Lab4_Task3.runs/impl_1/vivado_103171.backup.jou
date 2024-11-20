@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov 18 17:04:21 2024
+# Process ID: 103171
+# Current directory: /home/it/Vivado_Projects/Lab4_Task3/Lab4_Task3.runs/impl_1
+# Command line: vivado -log regs_4_bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source regs_4_bit.tcl -notrace
+# Log file: /home/it/Vivado_Projects/Lab4_Task3/Lab4_Task3.runs/impl_1/regs_4_bit.vdi
+# Journal file: /home/it/Vivado_Projects/Lab4_Task3/Lab4_Task3.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source regs_4_bit.tcl -notrace
