@@ -1,0 +1,24 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+0 0	 1	 1	 xxxxxxxx
+5000 1	 1	 1	 xxxxxxx1
+6000 1	 1	 0	 xxxxxxx1
+10000 0	 1	 0	 xxxxxxx1
+15000 1	 1	 0	 xxxxxx10
+20000 0	 1	 0	 xxxxxx10
+25000 1	 1	 0	 xxxxx100
+30000 0	 1	 0	 xxxxx100
+35000 1	 1	 0	 xxxx1000
+40000 0	 1	 0	 xxxx1000
+45000 1	 1	 0	 xxx10000
+50000 0	 1	 0	 xxx10000
+55000 1	 1	 0	 xx100000
+60000 0	 1	 0	 xx100000
+65000 1	 1	 0	 x1000000
+70000 0	 1	 0	 x1000000
+75000 1	 1	 0	 10000000
+80000 0	 1	 0	 10000000
+85000 1	 1	 0	 00000000
+90000 0	 1	 0	 00000000
+95000 1	 1	 0	 00000000
+$finish called at time : 96 ns : File "/home/it/Vivado_Projects/Lab5_Task1/Lab5_Task1.srcs/sim_1/new/sh_reg_tb.sv" Line 26
