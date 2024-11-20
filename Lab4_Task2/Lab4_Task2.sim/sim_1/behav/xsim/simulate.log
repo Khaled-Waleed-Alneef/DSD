@@ -1,0 +1,14 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+0 0	 1	 0	 x	 x
+5000 1	 0	 1	 0	 1
+10000 0	 1	 1	 0	 1
+15000 1	 1	 1	 1	 0
+20000 0	 1	 0	 1	 0
+25000 1	 1	 0	 0	 1
+30000 0	 1	 1	 0	 1
+35000 1	 1	 1	 1	 0
+40000 0	 1	 0	 1	 0
+45000 1	 1	 1	 0	 1
+50000 0	 1	 1	 0	 1
+$finish called at time : 55 ns : File "/home/it/Vivado_Projects/Lab4_Task2/Lab4_Task2.srcs/sim_1/new/DFF_tb.sv" Line 33
