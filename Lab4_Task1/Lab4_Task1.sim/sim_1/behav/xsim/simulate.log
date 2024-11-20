@@ -1,0 +1,15 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+0 0	 0	 0	 xx
+5000 1	 0	 0	 01
+10000 0	 0	 1	 01
+15000 1	 0	 1	 10
+20000 0	 0	 0	 10
+25000 1	 0	 0	 01
+30000 0	 0	 1	 01
+35000 1	 0	 1	 10
+40000 0	 0	 0	 10
+45000 1	 0	 0	 01
+50000 0	 0	 1	 01
+55000 1	 1	 1	 01
+$finish called at time : 60 ns : File "/home/it/Vivado_Projects/Lab4_Task1/Lab4_Task1.srcs/sim_1/new/Latch_tb.sv" Line 28
