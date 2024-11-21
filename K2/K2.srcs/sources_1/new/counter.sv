@@ -6,7 +6,7 @@ module counter #(parameter n = 4)(
   output logic [n-1:0] Q
     );
   initial
-  Q = 4'b1111;
+  Q = 4'b0;
 
     always @(posedge clk or negedge reset) begin
     if (~reset) 

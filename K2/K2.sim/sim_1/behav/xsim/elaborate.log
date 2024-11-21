@@ -5,27 +5,4 @@ Using 8 slave threads.
 Starting static elaboration
 WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'y' [/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/K2.sv:38]
 Completed static elaboration
-Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/K2.sv" Line 1. Module K2 doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/counter.sv" Line 1. Module counter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/ROM.sv" Line 1. Module ROM doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/MUX_4_bit.sv" Line 1. Module MUX_4_bit doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/decoder.sv" Line 1. Module decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/reg_n_bit.sv" Line 1. Module reg_n_bit doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/reg_n_bit.sv" Line 1. Module reg_n_bit doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/reg_n_bit.sv" Line 1. Module reg_n_bit doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/ALU.sv" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/DFF.sv" Line 1. Module DFF doesn't have a timescale but at least one module in design has a timescale.
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.counter
-Compiling module xil_defaultlib.ROM
-Compiling module xil_defaultlib.MUX_4_bit
-Compiling module xil_defaultlib.decoder
-Compiling module xil_defaultlib.reg_n_bit
-Compiling module xil_defaultlib.ALU
-Compiling module xil_defaultlib.DFF
-Compiling module xil_defaultlib.K2
-Compiling module xil_defaultlib.tb_K2
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_K2_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
