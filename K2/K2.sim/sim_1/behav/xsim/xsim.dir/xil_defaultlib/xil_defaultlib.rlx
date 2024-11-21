@@ -1,0 +1,14 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/it/Vivado_Projects/K2/K2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/it/Vivado_Projects/K2/K2.srcs/sim_1/new/tb_K2.sv,1732189192,systemVerilog,,,,tb_K2,,,,,,,,
+/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/ALU.sv,1732180215,systemVerilog,,/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/DFF.sv,,ALU,,,,,,,,
+/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/DFF.sv,1732178307,systemVerilog,,/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/K2.sv,,DFF,,,,,,,,
+/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/K2.sv,1732189148,systemVerilog,,/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/MUX_4_bit.sv,,K2,,,,,,,,
+/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/MUX_4_bit.sv,1732185440,systemVerilog,,/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/ROM.sv,,MUX_4_bit,,,,,,,,
+/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/ROM.sv,1732188098,systemVerilog,,/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/counter.sv,,ROM,,,,,,,,
+/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/counter.sv,1732187482,systemVerilog,,/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/decoder.sv,,counter,,,,,,,,
+/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/decoder.sv,1732181409,systemVerilog,,/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/reg_n_bit.sv,,decoder,,,,,,,,
+/home/it/Vivado_Projects/K2/K2.srcs/sources_1/new/reg_n_bit.sv,1732185322,systemVerilog,,/home/it/Vivado_Projects/K2/K2.srcs/sim_1/new/tb_K2.sv,,reg_n_bit,,,,,,,,
