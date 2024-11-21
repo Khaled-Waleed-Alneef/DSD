@@ -1,4 +1,3 @@
-
 module counter #(parameter n = 4)(
   input logic reset,
   input logic [n-1:0] D,
@@ -6,13 +5,15 @@ module counter #(parameter n = 4)(
   input logic l,
   output logic [n-1:0] Q
     );
-  
+  initial
+  Q = 4'b1111;
 
     always @(posedge clk or negedge reset) begin
-    if (~reset) begin
+    if (~reset) 
         Q <= 4'b0; 
-    end else begin
-        Q <= l ? {1'b0 ,D} : Q + 1'b1 ;
-    end
+    else if (l == 1)
+        Q <=  {1'b0 ,D};
+    else 
+        Q <=  Q + 1'b1;
 end
 endmodule

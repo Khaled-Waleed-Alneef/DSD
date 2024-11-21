@@ -6,8 +6,8 @@ module tb_K2;
     logic reset;
     logic J;
     logic C;
-    logic D0;
     logic D1;
+    logic D0;
     logic Sreg;
     logic [2:0] imm;
     logic [3:0] RAo;
@@ -22,11 +22,10 @@ module tb_K2;
     initial 
     clk = 0;
     always
-    #3 clk = ~clk;
+    #1 clk = ~clk;
     
     initial begin 
-    reset = 0;#4
-    reset = 1;#90
+    reset = 1;#150
     $finish;
     end
 endmodule

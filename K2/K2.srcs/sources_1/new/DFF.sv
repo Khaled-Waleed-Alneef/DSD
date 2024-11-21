@@ -1,10 +1,15 @@
-module DFF#(parameter n = 1)(
-    input logic [n-1:0] D,
+module DFF(
+    input logic D,
     input logic clk,
-    output logic [n-1:0] Q
+    input logic reset,
+    output logic Q
     );
-always @(posedge clk) 
+always @(posedge clk or negedge reset) 
 begin
- Q <= D; 
+    if(~reset)
+        Q <= 0; 
+    else
+        Q <= D;
+
 end 
 endmodule

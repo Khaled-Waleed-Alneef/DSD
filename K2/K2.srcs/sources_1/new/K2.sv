@@ -20,17 +20,18 @@ module K2 #(parameter n = 4)(
     logic enA,enB,en0;
     logic DFFo,ANDo,ORo;
     
-    
     assign imm = ins[2:0];
     assign Sreg = ins[3];
     assign D0 = ins[4];
     assign D1 = ins[5];
     assign C = ins[6];
     assign J = ins[7];
+
     
-    counter c1(reset,imm,clk,ORo,addr);
+    counter c1(reset,{1'b0,imm},clk,ORo,addr);
     
-    ROM rom1(addr,ins,clk);
+    ROM rom1(addr,ins);
+    
     
     MUX_4_bit mux1 (imm,ALUo,Sreg,MUXo);
     
@@ -42,9 +43,9 @@ module K2 #(parameter n = 4)(
     
     ALU alu1(RAo,RBo,imm[2],{Co,ALUo});
     
-    DFF dff1(Co,clk,DFFo);
+    DFF dff1(Co,clk,reset,DFFo);
     
-    and(ANDo,DFFo,C);
-    or(ORo,ANDo,J);
+    assign ANDo = DFFo & C;
+    assign ORo = J | ANDo;
     
 endmodule
