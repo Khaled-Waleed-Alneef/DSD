@@ -33,15 +33,15 @@ module K2 #(parameter n = 4)(
     ROM rom1(addr,ins);
     
     
-    MUX_4_bit mux1 (imm,ALUo,Sreg,MUXo);
+    MUX_4_bit #(n) mux1 (imm,ALUo,Sreg,MUXo);
     
     decoder dec1({D1,D0},{en0,enB,enA});
     
-    reg_n_bit RA(clk,reset,enA,MUXo,RAo);
-    reg_n_bit RB(clk,reset,enB,MUXo,RBo);
-    reg_n_bit R0(clk,reset,en0,RAo,R0o);
+    reg_n_bit #(n) RA(clk,reset,enA,MUXo,RAo);
+    reg_n_bit #(n) RB(clk,reset,enB,MUXo,RBo);
+    reg_n_bit #(n) R0(clk,reset,en0,RAo,R0o);
     
-    ALU alu1(RAo,RBo,imm[2],{Co,ALUo});
+    ALU #(n) alu1(RAo,RBo,imm[2],{Co,ALUo});
     
     DFF dff1(Co,clk,reset,DFFo);
     
