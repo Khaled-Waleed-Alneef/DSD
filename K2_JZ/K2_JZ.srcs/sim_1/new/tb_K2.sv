@@ -26,7 +26,7 @@ module tb_K2;
     
     initial begin 
  
-    reset = 1;#150
+    reset = 1;#70
     $finish;
     end
 endmodule

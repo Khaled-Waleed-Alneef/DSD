@@ -18,7 +18,7 @@ module K2 #(parameter n = 4)(
     
     logic [n-1:0] MUXo;
     logic enA,enB,en0;
-    logic DFFo,ANDo,ORo,NORo;
+    logic DFFo,DFFo1,ANDo,ANDo1,ORo,NORo;
     
     assign imm = ins[2:0];
     assign Sreg = ins[3];
@@ -44,8 +44,11 @@ module K2 #(parameter n = 4)(
     ALU #(n) alu1(RAo,RBo,imm[2],{Co,ALUo});
     
     DFF dff1(Co,clk,reset,DFFo);
+    DFF dff2(NORo,clk,reset,DFFo1);
+    
+    assign ANDo1 = D0 & D1 & DFFo1;
     assign NORo = ~(|ALUo);
     assign ANDo = DFFo & C;
-    assign ORo = J | ANDo | NORo;
+    assign ORo = J | ANDo | ANDo1;
     
 endmodule
