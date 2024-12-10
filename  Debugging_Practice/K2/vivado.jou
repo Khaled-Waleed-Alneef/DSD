@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec 10 11:10:25 2024
+# Process ID: 31164
+# Current directory: /home/it/Vivado_Projects/VS Debugging_Practice/K2
+# Command line: vivado
+# Log file: /home/it/Vivado_Projects/VS Debugging_Practice/K2/vivado.log
+# Journal file: /home/it/Vivado_Projects/VS Debugging_Practice/K2/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/it/Vivado_Projects/Debugging_Practice/Debugging_Practice.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source K2_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
